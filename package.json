@@ -1,8 +1,15 @@
 {
   "name": "drag-drop-move",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "DragDropMove is a lightweight JavaScript library that enables easy and customizable element drag-and-drop functionality for frontend projects.",
   "type": "module",
+  "repository": "https://github.com/zane626/drag-drop-move",
+  "homepage": "https://github.com/zane626/drag-drop-move",
+  "author": {
+    "name": "zane",
+    "email": "zzg9583@gmail.com",
+    "url": "https://github.com/zane626"
+  },
   "files": [
     "dist",
     "index.d.ts"
