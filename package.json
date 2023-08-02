@@ -1,0 +1,36 @@
+{
+  "name": "drag-drop-move",
+  "version": "0.0.1",
+  "description": "DragDropMove is a lightweight JavaScript library that enables easy and customizable element drag-and-drop functionality for frontend projects.",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "./dist/dragDropMove.umd.cjs",
+  "module": "./dist/dragDropMove.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/counter.js",
+    "require": "./dist/counter.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3",
+    "vite": "^4.3.9"
+  },
+  "keywords": [
+    "JavaScript",
+    "library",
+    "drag-and-drop",
+    "frontend",
+    "element",
+    "move",
+    "customizable."
+  ],
+  "license": "ISC"
+}
